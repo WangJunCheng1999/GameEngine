@@ -1,6 +1,6 @@
-#include <Hazel.h>
+#include <GameEngine.h>
 
-class Sandbox : public Hazel::Application
+class Sandbox : public GameEngine::Application
 {
 public:
 	Sandbox()
@@ -15,7 +15,7 @@ public:
 
 };
 
-Hazel::Application* Hazel::CreateApplication()
+GameEngine::Application* GameEngine::CreateApplication()
 {
 	return new Sandbox();
 }

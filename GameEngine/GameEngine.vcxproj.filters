@@ -15,21 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Hazel\Application.cpp">
+    <ClCompile Include="src\GameEngine\Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameEngine\Log.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Hazel\Application.h">
+    <ClInclude Include="src\GameEngine\Application.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Hazel\Core.h">
+    <ClInclude Include="src\GameEngine\Core.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Hazel\EntryPoint.h">
+    <ClInclude Include="src\GameEngine\EntryPoint.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Hazel.h">
+    <ClInclude Include="src\GameEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameEngine\Log.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

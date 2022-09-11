@@ -2,9 +2,9 @@
 
 #include "Core.h"
 
-namespace Hazel {
+namespace GameEngine {
 
-	class HAZEL_API Application
+	class GE_API Application
 	{
 	public:
 		Application();
