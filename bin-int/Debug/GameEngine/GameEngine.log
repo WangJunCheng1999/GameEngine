@@ -1,0 +1,11 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(499,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(500,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Log.cpp
+D:\project\cpp\GameEngine\GameEngine\src\GameEngine\Log.h(16,42): warning C4251: 'GameEngine::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'GameEngine::Log'
+D:\project\cpp\GameEngine\GameEngine\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+D:\project\cpp\GameEngine\GameEngine\src\GameEngine\Log.h(17,42): warning C4251: 'GameEngine::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'GameEngine::Log'
+D:\project\cpp\GameEngine\GameEngine\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Application.cpp
+  Generating Code...
+     Creating library D:\project\cpp\GameEngine\bin\Debug\GameEngine\GameEngine.lib and object D:\project\cpp\GameEngine\bin\Debug\GameEngine\GameEngine.exp
+  GameEngine.vcxproj -> D:\project\cpp\GameEngine\bin\Debug\GameEngine\GameEngine.dll
