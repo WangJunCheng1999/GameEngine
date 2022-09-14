@@ -1,6 +1,6 @@
 workspace "GameEngine"
 	architecture "x64"
-
+	startproject  "Sandbox"
 	configurations
 	{
 		"Debug",
@@ -16,7 +16,7 @@ project "GameEngine"
 	language "C++"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+	objdir ("bin_int/" .. outputdir .. "/%{prj.name}")
 
 	files
 	{
@@ -63,7 +63,7 @@ project "Sandbox"
 	language "C++"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+	objdir ("bin_int/" .. outputdir .. "/%{prj.name}")
 
 	files
 	{
