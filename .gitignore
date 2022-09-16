@@ -1,3 +1,5 @@
 .vs
-./bin
-./bin-int
+/bin
+/bin_int
+*.vcxproj
+/GameEngine.sln
