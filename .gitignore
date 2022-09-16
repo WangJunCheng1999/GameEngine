@@ -2,4 +2,6 @@
 /bin
 /bin_int
 *.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
 /GameEngine.sln
